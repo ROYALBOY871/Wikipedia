@@ -78,3 +78,4 @@ class HTTPTimeoutError(WikipediaException):
 
   def __unicode__(self):
     return u"Searching for \"{0}\" resulted in a timeout. Try again in a few seconds, and make sure you have rate limiting set to True.".format(self.query)
+.
